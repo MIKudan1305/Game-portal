@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playpen+Sans:wght@100..800&display=swap');
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+* {
+    margin: 0;
+
+}
+
+body {
+  background-color: #000000;
+  color: #ffffff;
+  font-family: "Playpen Sans", cursive;
+
+}
+
+header {
+  position: sticky;
+  top: 0px;
+  height: fit-content;
+  background-color: #c11515;
+  box-sizing: border-box;
+  border-radius: 50px;
+}
+
+footer {
+  margin-top: 30px;
+  height: 220px;
+  text-align: center;
+  background-image:url('media/background.png');
+}
+
+span {
+    font-weight: bold;
+}
+
+.sticky__nav {
+  display: flex;
+  justify-content:space-around;
+  font-weight: 600;
+  font-size: 16px;
+  padding: 20px, 0px, 20px, 0px;
+  color: #fff;
+  transition: all 0.3s ease-in-out;
+}
+
+.footer__header {
+  padding-top: 60px;
+}
+
+.footer__text {
+  margin-top: 20px;
+}
+
+.footer__button {
+  display: inline-block;
+  margin-top: 20px;
+  padding:15px 40px 15px 40px;
+  font-size: 20px;
+  color: #000;
+  border: none;
+  cursor: pointer;
+  position:relative;
+  transition: all 3s;
+  z-index: 1;
+  border-radius: 35px;
+}
+
+.block {
+  width: 100%;
+  height: fit-content;
+  padding: 20px;
+  line-height: 24px;
+  box-sizing: border-box;
+  transition: all 0.7s ease-in-out;
+}
+
+.main__slogan {
+  height: 40%;
+  box-sizing: border-box;
+}
+
+.main__image-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main__image-block > img {
+  width: 1000px;
+  height: auto;
+  border-radius: 35px;
+}
+
+.main__info {
+  float: right;
+  text-align: justify;
+  width: 50%;
+}
+
+.main__about-game {
+  clear: right;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.main_content {
+  overflow-x: hidden
+}
+
+.main__about-image {
+  width: 100%;
+  margin: 20px;
+  border-radius: 35px;
+}
+
+.about__hd {
+  margin-right: 3%;
+  transition: all 0.5s ease-in-out;
+}
+
+.about__dlc {
+  margin-top: 2%;
+  transition: all 1.5s ease-in-out;
+}
+
+.about {
+  width: 37%;
+  text-align: center;
+}
+
+.about__weapon {
+  text-align: left;
+  margin-left: 1%;
+}
+
+.weapon__text {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  transition: all 0.4s ease-in-out;
+}
+
+.weapon {
+  margin-top: 10px;
+  padding-left: 30px;
+  position: relative;
+}
+
+.weapon_list {
+  transition: all 0.4s ease-in-out;
+}
+
+.sticky__nav > a {
+    color: white;
+    text-decoration: none;
+}
+
+.sticky__nav > a:hover {
+  color: #67E667;
+}
+
+.footer__button:hover {
+  background-color: #FF7373;
+}
